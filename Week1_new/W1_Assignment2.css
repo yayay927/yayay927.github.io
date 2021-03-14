@@ -1,0 +1,317 @@
+body {
+  font-family: system-ui;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.main-header {
+  background: #EEEEEE;
+  overflow: hidden;
+}
+
+.list {
+  color: black;
+  float: right;
+}
+
+.menu {
+  display: none;
+  alt: "menu of the website";
+}
+
+ol{
+  display:inline-block;
+  margin-right: 40px;
+}
+
+.web-title{
+  color: black;
+  float: left;
+  position: 50%;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+.title {
+  color: black;
+  background-color: #CCDDED;
+  padding: 200px;
+  margin: 0;
+}
+
+.section {
+  color: black;
+  padding: 60px;
+}
+
+.four-boxes {
+  width: 1200px;
+  height: 600px;
+  margin: auto;
+  /* display: flex; */
+  justify-content: center;
+  /* padding: 32px 0px; */
+}
+
+.box-1, .box-3 {
+  color: black;
+  width: 48%;
+  padding-bottom: 200px;
+  background-color: #8899A9;
+  float: left;
+  margin: 10px;
+}
+
+.box-2, .box-4 {
+  color: black;
+  width: 48%;
+  padding-bottom: 200px;
+  background-color: #8899A9;
+  float: right;
+  margin: 10px;
+}
+
+.footer {
+  color: black;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.cta {
+  background-color: #DCEFFF;
+  float: center;
+  margin: auto;
+  width: 120px;
+  height: 40px;
+
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-nav {
+  float:left;
+}
+
+.logo {
+  float: right;
+}
+
+/* Media Queries */
+@media (min-width: 1200px) {
+  .main-nav li {
+    display: inline-block
+  }
+  .body {
+    max-width: 1200px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+  /*  .four-boxes{
+  } */
+  .box-1, .box-2, .box-3, .box-4 {
+    display: auto;
+    margin: 5px;
+    width: 45%;
+  }
+  .four-boxes {
+    /* display: flex;
+    flex-direction: column; */
+    width: 90% !important;
+    padding: 0 10px;
+  }
+}
+
+@media(min-width: 500px) and (max-width: 800px) {
+
+  .box-1, .box-2, .box-3, .box-4 {
+    display: auto;
+    margin: 5px;
+    width: 45%;
+  }
+  .four-boxes {
+    /* display: flex;
+    flex-direction: column; */
+    width: 90% !important;
+    padding: 0 10px;
+  }
+
+  .list {
+    display: none;
+  }
+
+  .menu {
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 40px;
+    height: 40px;
+    display: inline;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .list {
+    display: none;
+  }
+  
+  .menu {
+    float: right;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    display: inline;
+  }
+  
+  .four-boxes {
+    height: auto;
+    margin-block: 10px;
+    margin: 30px auto;
+  }
+
+  .box-1, .box-2, .box-3, .box-4 {
+    width: 400px;
+    margin: 10px auto;
+    float: none;
+/*     flex-wrap: wrap; */
+  }
+}
+
+
+
+/* first version */
+/* body {
+  font-family: system-ui;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.main-header {
+  background: #EEEEEE;
+  overflow: hidden;
+}
+
+.list {
+  color: black;
+  float: right;
+}
+
+ol{
+    display:inline-block;
+    margin-right: 40px;
+}
+
+.web-title{
+  color: black;
+  float: left;
+  position: 50%;
+}
+
+.title {
+  color: black;
+  background-color: #CCDDED;
+  padding: 200px;
+  margin: 0;
+}
+
+.section {
+  color: black;
+  padding: 60px;
+}
+
+.four-boxes {
+  width: 1200px;
+  height: 600px;
+  margin: auto;
+}
+
+.box-1 {
+  color: black;
+  width: 48%;
+  padding-bottom: 200px;
+  background-color: #8899A9;
+  float: left;
+}
+
+.box-2 {
+  color: black;
+  width: 48%;
+  padding-bottom: 200px;
+  background-color: #8899A9;
+  float: right;
+}
+
+.box-3 {
+  color: black;
+  width: 48%;
+  padding-bottom: 200px;
+  background-color: #8899A9;
+  float: left;
+}
+
+.box-4 {
+  color: black;
+  width: 48%;
+  padding-bottom: 200px;
+  background-color: #8899A9;
+  float: right;
+}
+
+.footer {
+  color: black;
+
+  text-align: center;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.cta {
+  background-color: #DCEFFF;
+  float: center;
+  margin: auto;
+  width: 120px;
+  height: 40px;
+
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-nav {
+  float:left;
+}
+
+.logo {
+  float: right;
+} */
+
+/* Media Queries */
+/* @media (min-width: 1200px) {
+  .main-nav li {
+    display: inline-block
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+
+}
+
+
+@media(min-width: 500px) and (max-width: 800px) {
+
+}
+
+@media (max-width: 500px) {
+
+} */
